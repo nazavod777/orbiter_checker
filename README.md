@@ -3,7 +3,7 @@
 
 
 ### config/accounts.txt
-_- Private Keys / Mnemonics с новой строки_
+_- Private Keys с новой строки_
 
 ### config/proxies.txt
 _- Proxies с новой строки (любой формат)_
