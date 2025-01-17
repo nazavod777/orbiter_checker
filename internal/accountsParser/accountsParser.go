@@ -70,6 +70,10 @@ func getBalances(
 			continue
 		}
 
+		if response.Result.Amount == "" {
+			return 0
+		}
+
 		formattedAmount, err := strconv.ParseFloat(response.Result.Amount, 64)
 
 		if err != nil {
